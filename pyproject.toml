@@ -8,7 +8,13 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "httpx>=0.28.1",
+    "parcel>=0.2.2",
+    "pydantic>=2.14.1",
+    "rapidfuzz>=3.14.6",
     "scrapy>=2.19.0",
+    "tenacity>=9.2.1",
+    "typer>=0.27.3",
 ]
 
 [project.scripts]
